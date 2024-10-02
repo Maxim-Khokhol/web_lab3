@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    position: relative;
+}
+.container, .container2{
+    width: 100vw;
+    height: 84vh;
+    margin-top: 8vh;
+}
+.top{
+    width: 80%;
+    height: 10%;
+    background-color: lightgreen;
+    margin: 0 auto;
+
+}
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(20px, 1.5vw, 50px);
+}
+.left{
+    height: 80%;
+    width: 20%;
+    background-color: mediumpurple;
+    float: left;
+    margin-left: 10%;
+}
+.right{
+    height: 80%;
+    width: 60%;
+    background-color: deepskyblue;
+    float: left;
+}
+.bottom{
+    width: 80%;
+    height: 10%;
+    background-color: bisque;
+    margin-left: 10%;
+    float: left;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8vh;
+}
+.top2{
+    width: 80%;
+    height: 10%;
+    background-color: lightgreen;
+    margin: 0 auto;
+
+}
+
+.left2{
+    height: 80%;
+    width: 20%;
+    background-color: mediumpurple;
+    margin-left: 10%;
+}
+.right2{
+    height: 80%;
+    width: 60%;
+    background-color: deepskyblue;
+}
+.bottom2{
+    width: 80%;
+    height: 10%;
+    background-color: bisque;
+    margin-left: 10%;
+}
